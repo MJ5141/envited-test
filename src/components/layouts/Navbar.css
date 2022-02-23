@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to bottom right, #501fc1, #c246d4);
+    
+}
+
+.nav-brand {
+    color: white;
+    margin-left: 10px;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.nav-btn {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, #c01495, #c246d4);
+    padding: 12px 20px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.nav {
+    display: flex;
+    width: 100%;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
