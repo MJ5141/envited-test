@@ -1,0 +1,76 @@
+.options  {
+    margin-top: 95px;
+    display: flex;   
+    flex-basis: auto;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.invite {
+    display: flex;   
+    flex-basis: auto;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.head {
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: purple;
+    margin-bottom: 50px;
+}
+
+.op {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.opp {
+    width: 250px;
+}
+
+.address {
+    margin-top: 55px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
+
+.Buttons {
+    margin-top: 55px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.time {
+    display: flex;
+    margin-top: 55px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}

@@ -36,7 +36,7 @@ const AddEvent = () => {
     <label for="exampleInputPassword1" class="form-label">Location</label>
     <input type="address" class="form-control" id="exampleInputPassword1"/>
   </div>
-  <Link className="nav-btn" to="/show">Next</Link>
+  <Link className="nav-btn" to="/event">Next</Link>
 </form>
         </div> 
      </div>
