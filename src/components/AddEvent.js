@@ -1,47 +1,44 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import './AddEvent.css';
 
 const AddEvent = () => {
   return (
-    <div className="py=1">
-      <div className="container">
-          <h1> Add New Event</h1>
-        <div className="py-2">
-        <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Event Name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Host Name</label>
-    <input type="text" class="form-control" id="exampleInputPassword1"/>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Start Time </label>
-    <input type="time" class="form-control" id="exampleInputPassword1"/>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">End Time</label>
-    <input type="time" class="form-control" id="exampleInputPassword1"/>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Start Date</label>
-    <input type="date" class="form-control" id="exampleInputPassword1"/>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">End date</label>
-    <input type="date" class="form-control" id="exampleInputPassword1"/>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Location</label>
-    <input type="address" class="form-control" id="exampleInputPassword1"/>
-  </div>
-  <Link className="nav-btn" to="/event">Next</Link>
-</form>
-        </div> 
-     </div>
+    <div className="container">
+      <h1> Add New Event</h1>
+       <div className="py-2">
+       <form>
+         <div className="form">
+        <div class="col-md-4 ">
+          <label for="inputEmail4" className="form-label">Event Name</label>
+          <input type="text" class="form-control" id="inputEmail4" placeholder='Even name'/>
 
- </div>
+          <label for="inputPassword4" class="form-label">Host Name</label>
+          <input type="text" class="form-control" id="inputPassword4" placeholder='Host name'/>
+
+          <label for="inputEmail4" class="form-label">Start Time</label>
+          <input type="time" class="form-control" id="inputEmail4"/>
+
+          <label for="inputPassword4" class="form-label">End Time</label>
+          <input type="time" class="form-control" id="inputPassword4"/>
+
+          <label for="inputEmail4" class="form-label">Start Date</label>
+          <input type="date" class="form-control" id="inputEmail4"/>
+
+          <label for="inputPassword4" class="form-label">End Date</label>
+          <input type="date" class="form-control" id="inputPassword4"/>
+
+          <label for="inputEmail4" class="form-label">Location</label>
+          <input type="address" class="form-control" id="inputEmail4" placeholder='Location'/>
+
+          <label for="inputPassword4" class="form-label">Event Picture</label>
+          <input type="file" class="form-control" id="inputPassword4"/>
+        </div>
+        </div>
+        <button className="nav-btn"><Link className="nav-btn" to="/event">Next</Link></button>
+      </form>
+      </div> 
+    </div>
   )
 }
 
